@@ -11,6 +11,7 @@ function App() {
             <Button onClick={handleClick} color='red'>Viteeeeee</Button>
             <Button onClick={handleClick} color='red'>Viteeeeee</Button>
             <Button onClick={handleClick} color='red'>Viteeeeee</Button>
+            <Button onClick={handleClick} color='red'>Viteeeeee</Button>
             <img src={fish} width={50} height={50}/>
         </>
     )

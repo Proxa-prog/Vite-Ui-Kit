@@ -1,6 +1,6 @@
 {
   "name": "proxa-ui-kitt",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "type": "commonjs",
   "main": "./dist/ui/ui-kit.umd.cjs",
   "module": "./dist/ui-kit.js",
