@@ -1,22 +1,21 @@
-name: npm-publish
+name: publish
 on:
   push:
     branches:
       - main # Change this to your default branch
 jobs:
-  npm-publish:
-    name: npm-publish
+  release:
+    name: publish
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: checkout
       - uses: actions/checkout@v3
-      # Setup .npmrc file to publish to npm
+      - name: checkout
       - uses: actions/setup-node@v3
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
-      - run: npm ci
-      - run: npm publish
+      - name: publish
+      - run: npm publish --access public
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-            NPM_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
