@@ -2,7 +2,7 @@ import {sum, Button} from "./ui";
 
 function App() {
     const handleClick = () => {
-        sum(4, 2);
+        console.log(sum(4, 2))
     }
 
     return (
