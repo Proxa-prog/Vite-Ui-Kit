@@ -5,6 +5,8 @@ import dts from 'vite-plugin-dts';
 // https://vitejs.dev/guide/build.html#library-mode
 
 export default defineConfig({
+    root: './',
+    base: './',
     server: {
         open: true,
         port: 5555,
