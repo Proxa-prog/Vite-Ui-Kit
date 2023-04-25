@@ -1,5 +1,5 @@
 // import { test, expect } from 'vitest';
-import {subtract} from "./ui";
+import {subtract} from "./index";
 
 test('subtracts two numbers', () => {
     expect(subtract(10, 7)).toBe(3);

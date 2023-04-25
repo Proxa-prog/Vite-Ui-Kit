@@ -1,5 +1,5 @@
 // import { test, expect } from 'vitest';
-import {sum} from "./ui";
+import {sum} from "./index";
 
 
 test('sums two numbers', () => {

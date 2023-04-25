@@ -1,5 +1,4 @@
-import {sum, Button} from "./ui";
-
+import {Button, sum} from "./index";
 import fish from '/fish.svg';
 function App() {
     const handleClick = () => {
