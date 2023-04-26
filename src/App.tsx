@@ -8,11 +8,6 @@ function App() {
     return (
         <>
             <Button onClick={handleClick} color='red'>Viteeeeee</Button>
-            <Button onClick={handleClick} color='red'>Viteeeeee</Button>
-            <Button onClick={handleClick} color='red'>Viteeeeee</Button>
-            <Button onClick={handleClick} color='red'>Viteeeeee</Button>
-            <Button onClick={handleClick} color='red'>Viteeeeee</Button>
-            <Button onClick={handleClick} color='red'>Viteeeeee</Button>
             <img src={fish} width={50} height={50}/>
             <img src={fish} width={50} height={50}/>
             <img src={fish} width={50} height={50}/>
